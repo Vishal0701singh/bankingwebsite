@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <title>banking</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    .box2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+</style>
+
+<body class="m_body">
+    <div class="body">
+        <div class="box">
+            <div class="innerbox">
+                <!-- <nav class="navbar1"><button> ✖ </button></nav> -->
+                <h1 class="login_heading">Login Here</h1>
+                <p class="welcombox1"> to see your A/C </p>
+                <div>
+                    <form>
+                        <div class="login_box">
+                            <img class="logo_login" src="logo.png" alt="">
+                            <input type="text" class="inputloginbox loginStyle" placeholder="username">
+                            <input type="password" class="input_pin loginStyle" placeholder="pin" maxlength="4">
+                            <button class=" login_btn1">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="box2 opacity">
+            <nav class="navbar">
+                <p class="welcombox">Login to see your A/C </p>
+                <img class="logo" src="logo.png" alt="">
+                <div>
+                    <div>
+                        <p class="switch">Switch A/C</p>
+                    </div>
+                    <div>
+                        <form class="loginform">
+                            <input class="inputlogin username" type="text" placeholder="username" name="username">
+                            <input class="inputlogin pin" type="password" placeholder="pin" maxlength="4" name="pin">
+                            <button class="btn login_btn btn_standerd">--></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="center opacity">
+                <div class="balance">
+                    <div class="balance_text">
+                        <p>
+                        <h4 class="h_four">Current balance</h4>
+                        </p>
+                        <p class="t_date">as of 5/2/2023</p>
+                    </div>
+                    <div class="balance_number">
+                        <h1 class="h_four main_balance">4520 Rs.</h1>
+                    </div>
+                </div>
+                <div class="explaination">
+                    <!-- HISTORY -->
+                    <div class="history">
+                        <div class="his">
+                            <div class="typeoftransaction">
+                                <div class="deposit">3 DEPOSIT</div>
+                                <div class="date">2/3/2002</div>
+                            </div>
+                            <div class="his_balance">2564</div>
+                        </div>
+                        <div class="his">
+                            <div class="typeoftransaction">
+                                <div class="withdrawal">2 WITHDRAWAL</div>
+                                <div class="date">2/3/2002</div>
+                            </div>
+                            <div class="his_balance">-264</div>
+                        </div>
+                        <div class="his">
+                            <div class="typeoftransaction">
+                                <div class="deposit">1 DEPOSIT</div>
+                                <div class="date">2/3/2002</div>
+                            </div>
+                            <div class="his_balance">25614</div>
+                        </div>
+
+                    </div>
+                    <div class="operations">
+                        <div class="operation transfer">
+                            <h3 class="head_operation">Transfer money</h3>
+                            <form>
+                                <div class="transfer_containtent">
+                                    <div class="inp_box">
+                                        <input type="text" class="input transfer_input transfer_to">
+                                        <p>transfer to</p>
+                                    </div>
+                                    <div class="inp_box">
+                                        <input type="text" class="input transfer_input transfer_amount">
+                                        <p> Amount</p>
+                                    </div>
+
+                                    <div class="inp_box">
+                                        <button class="btn btn_transfer btn_standerd">--></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="operation loan">
+                            <h3 class="head_operation">Request loan</h3>
+                            <form action="">
+                                <div class="request_containtent">
+                                    <div class="inpbox">
+                                        <input type="text" class="input request_input request_amount">
+                                        <p> Amount</p>
+                                    </div>
+
+                                    <div class="r_inpbox">
+                                        <button class="btn btn_request btn_standerd">--></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="operation close">
+                            <h3 class="head_operation">Close account</h3>
+                            <form action="">
+                                <div class="transfer_containtent">
+                                    <div class="inp_box">
+                                        <input type="text" class="input close_input confirm_user">
+                                        <p>Confirm user</p>
+                                    </div>
+                                    <div class="inp_box">
+                                        <input type="password" class="input close_input confirm_pin">
+                                        <p>Confirm pin</p>
+                                    </div>
+
+                                    <div class="inp_box">
+                                        <button class="btn btn_close btn_standerd">--></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary">
+                    <div class="summarynumber">
+                        <div class="para">in <p class="total_in ">465.00</p>
+                        </div>
+                        <div class="para">out <p class="total_out ">0.00</p>
+                        </div>
+                        <div class="para">interest <p class="total_interest">0.00</p>
+                        </div>
+                        <div class="para btn_standerd short">↓ SHORT</div>
+
+                        <p></p>
+                        <p></p>
+                        <p class="para"></p>
+                    </div>
+                    <div class="timelog">
+                        <p class="logout">you will be logged out in 09:32</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
